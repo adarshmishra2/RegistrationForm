@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abhishekpc.registrationform.MainActivity">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name :  "
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="23dp"
+        android:layout_marginLeft="12dp"/>
+    <EditText
+        android:id="@+id/nametxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Name Here"
+        android:layout_toRightOf="@+id/dob"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@+id/name"
+        />
+    <TextView
+        android:id="@+id/dob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date of birth :  "
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="23dp"
+        android:layout_marginLeft="12dp"/>
+    <EditText
+        android:id="@+id/dobtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:drawableBottom="@color/colorAccent"
+        android:layout_toRightOf="@+id/dob"
+        android:layout_alignBaseline="@+id/dob"
+        />
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender :  "
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/dob"
+        android:layout_marginTop="23dp"
+        android:layout_marginLeft="12dp"/>
+    <EditText
+        android:id="@+id/gendertxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:drawableBottom="@color/colorAccent"
+        android:layout_toRightOf="@+id/dob"
+        android:layout_alignBaseline="@+id/gender"
+        />
+    <TextView
+        android:id="@+id/occupation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Occupation :  "
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/gender"
+        android:layout_marginTop="23dp"
+        android:layout_marginLeft="12dp"/>
+    <EditText
+        android:id="@+id/occtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:drawableBottom="@color/colorAccent"
+        android:layout_toRightOf="@+id/dob"
+        android:layout_alignBaseline="@+id/occupation"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit"
+        android:text="Submit"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/occupation"
+        android:layout_marginTop="60dp"/>
+</RelativeLayout>

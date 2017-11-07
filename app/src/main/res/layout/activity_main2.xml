@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abhishekpc.registrationform.Main2Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Information: "
+        android:textSize="45dp"
+        android:textColor="@android:color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:text="@string/usrname"
+        android:textSize="23dp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="85dp"
+        android:layout_marginLeft="25dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nametv"
+        android:textSize="23dp"
+        android:layout_toRightOf="@+id/username"
+        android:layout_marginTop="85dp"
+        android:layout_marginLeft="25dp"/>
+    <TextView
+
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/userdob"
+        android:text="Date of birth is: "
+        android:textSize="23dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/nametv"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dobtv"
+        android:textSize="23dp"
+        android:layout_toRightOf="@+id/userdob"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/nametv"/>
+    <TextView
+
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/usergen"
+        android:layout_marginLeft="25dp"
+        android:text="Gender is: "
+        android:textSize="23dp"
+        android:layout_below="@+id/dobtv"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gentv"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/usergen"
+        android:textSize="23dp"
+        android:layout_below="@+id/dobtv"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+
+        android:textColor="@android:color/black"
+        android:layout_height="wrap_content"
+        android:id="@+id/userocc"
+        android:layout_marginLeft="25dp"
+        android:layout_below="@+id/gentv"
+        android:text="Occupation is: "
+        android:textSize="23dp"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/occtv"
+        android:layout_toRightOf="@+id/userocc"
+        android:layout_marginLeft="25dp"
+        android:layout_below="@+id/gentv"
+        android:textSize="23dp"
+        android:layout_marginTop="5dp"/>
+</RelativeLayout>

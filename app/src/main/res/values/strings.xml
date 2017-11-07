@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RegistrationForm</string>
+    <string name="usrname">Name is: </string>
+</resources>
